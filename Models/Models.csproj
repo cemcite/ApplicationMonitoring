@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>NuevoSoftware.ApplicationMonitoring.Models</AssemblyName>
+    <RootNamespace>NuevoSoftware.ApplicationMonitoring.Models</RootNamespace>
+  </PropertyGroup>
+
+</Project>

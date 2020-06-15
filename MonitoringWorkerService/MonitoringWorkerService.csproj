@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-MonitoringWorkerService-E3D82445-AAFF-41DD-8831-8A488E5FDBCE</UserSecretsId>
+    <AssemblyName>NuevoSoftware.ApplicationMonitoring.MonitoringWorkerService</AssemblyName>
+    <RootNamespace>NuevoSoftware.ApplicationMonitoring.MonitoringWorkerService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ChuckFactService.cs" />
+    <Compile Remove="RequestCollectorService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClientBusiness.cs\ClientBusiness.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
+  </ItemGroup>
+</Project>
